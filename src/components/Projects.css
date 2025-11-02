@@ -1,0 +1,63 @@
+.projects {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.projects h1{
+  color: #FF6EC7;
+   border-bottom: 2px solid #FF6EC7;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.webProjects{
+
+}
+
+.project-link,
+.design-item {
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.project-image,
+.design-image {
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.project-link:hover .project-image,
+.design-item:hover .design-image {
+  transform: scale(1.1);
+}
+
+/* Lightbox overlay */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  cursor: zoom-out;
+}
+
+.lightbox-img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}

@@ -1,0 +1,90 @@
+/* Hero.css */
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1A1A1A; /* Dark background */
+  text-align: center;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  color: #EDEDED;
+  margin-bottom: 20px;
+}
+
+.hero-content .glow {
+  color: #FF6EC7;
+}
+
+.hero-content p {
+  font-size: 20px;
+  color: #EDEDED;
+  margin-top: 50px;
+}
+
+.heroBtns{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+/* margin-top: 60px; */
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #ffffff;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #ffffff;
+  color: #1A1A1A;
+}
+
+.hero-skills {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.hero-skills-container {
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  background:transparent;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.hero-skills img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-skills img {
+    width: 50px;
+    height: 50px;
+  }
+}

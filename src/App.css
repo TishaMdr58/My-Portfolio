@@ -1,0 +1,109 @@
+/* App.css */
+
+/* --- Global Styles --- */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1A1A1A; /* Dark background */
+  color: #EDEDED; /* Neutral text */
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #FF6EC7; /* Neon accent for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #EDEDED; /* Change on hover */
+}
+
+/* --- Navbar --- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1A1A1A;
+  padding: 10px 50px;
+  z-index: 1000;
+}
+
+.logo{
+  font-size: 22px;
+}
+
+nav .logo span{
+  color: #FF6EC7;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-right: 100px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #a9a9a9;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  /* text-shadow: 0 0 5px #000000; */
+}
+
+/* --- Sections --- */
+section {
+  /* padding: 20px 20px; */
+  min-height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- Hero Section --- */
+#hero {
+  background-color: #1A1A1A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- About, Projects, Skills, Contact --- */
+#about, #projects, #skills, #contact {
+  background-color: #1A1A1A;
+}
+
+/* --- Neon Accent Buttons (Optional) --- */
+.button {
+  background-color: transparent;
+  border: 2px solid #FF6EC7;
+  color: #FF6EC7;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #FF6EC7;
+  color: #1A1A1A;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
