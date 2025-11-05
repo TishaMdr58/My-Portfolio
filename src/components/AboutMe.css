@@ -8,7 +8,7 @@
   max-width: 1200px;
   margin: 60px 100px 0;
   padding: 30px 20px;
-  color: #EDEDED;
+  color: #ededed;
 }
 
 .about-text {
@@ -17,14 +17,14 @@
 
 .about-text h1 {
   font-size: 48px;
-  color: #FF6EC7; /* Neon pink title */
+  color: #ff6ec7; /* Neon pink title */
   margin-bottom: 20px;
 }
 
 .about-text p {
   font-size: 18px;
   line-height: 28px;
-  color: #EDEDED;
+  color: #ededed;
   text-align: justify;
 }
 

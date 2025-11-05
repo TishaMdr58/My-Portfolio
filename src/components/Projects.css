@@ -16,8 +16,27 @@
   justify-content: center;
 }
 
-.webProjects{
+.webProjects img{
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
 
+.FigmaDesigns img{
+  width: 250px;
+  height: 180px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.Designs img{
+   width: 250px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: #111; /* optional background behind gaps */
+  transition: transform 0.3s ease;
 }
 
 .project-link,
@@ -27,14 +46,14 @@
   cursor: pointer;
 }
 
-.project-image,
+/* .project-image,
 .design-image {
   width: 250px;
   height: 160px;
   object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s ease;
-}
+} */
 
 .project-link:hover .project-image,
 .design-item:hover .design-image {

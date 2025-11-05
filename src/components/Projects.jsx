@@ -7,6 +7,7 @@ import foodoa from "../assets/foodoa.jpg";
 import fathersday from "../assets/fathersday.jpg";
 import coffepamp from "../assets/coffepamp.png";
 import nails from "../assets/nails.jpg"
+import banner from "../assets/johnRaiBanner.jpg"
 
 function Projects() {
   const [lightboxImg, setLightboxImg] = useState(null);
@@ -14,17 +15,18 @@ function Projects() {
   const webProjects = [
     { imageUrl: idash, link: "https://recipe-finder-gilt-six.vercel.app/" },
     { imageUrl: clothstore, link: "https://syvar-shop.vercel.app/" },
-    {imageUrl: nails, link: "#" },
+    {imageUrl: nails, link: "https://tishastouch.vercel.app/" },
   ];
 
   const figmaProjects = [
-    { imageUrl: donut, link: "#" },
-    { imageUrl: foodoa, link: "#" },
+    { imageUrl: donut, link: "https://www.figma.com/proto/0AwUICgnZwbrwQBPlwib0q/Donuteria?page-id=0%3A1&node-id=1-19&starting-point-node-id=1%3A19&scaling=scale-down-width&content-scaling=fixed&hide-ui=1&t=3y4Bp6L42dS9EV4w-8" },
+    { imageUrl: foodoa, link: "https://www.figma.com/proto/RkXt9KivKinXlQs7zdYklf/Food-app-Plated~?page-id=0%3A1&node-id=1-321&p=f&viewport=120%2C145%2C0.31&t=NIhlB3IuwYKIzqp0-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A321" },
   ];
 
   const photoshopDesigns = [
     { imageUrl: fathersday },
     { imageUrl: coffepamp },
+    { imageUrl: banner },
   ];
 
 
