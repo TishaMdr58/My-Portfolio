@@ -8,6 +8,7 @@ import fathersday from "../assets/fathersday.jpg";
 import coffepamp from "../assets/coffepamp.png";
 import nails from "../assets/nails.jpg"
 import banner from "../assets/johnRaiBanner.jpg"
+import howl from "../assets/howl.png"
 
 function Projects() {
   const [lightboxImg, setLightboxImg] = useState(null);
@@ -27,6 +28,7 @@ function Projects() {
     { imageUrl: fathersday },
     { imageUrl: coffepamp },
     { imageUrl: banner },
+    { imageUrl: howl },
   ];
 
 
