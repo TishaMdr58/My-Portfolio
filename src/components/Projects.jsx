@@ -88,7 +88,7 @@ function Projects() {
 
       {/* Photoshop & Canva Designs */}
       <div className="Designs">
-        <h2>Photoshop & Canva Designs</h2>
+        <h2>Visual Designs</h2>
         <div className="project-list">
           {photoshopDesigns.map((p, i) => (
             <div
