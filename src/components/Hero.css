@@ -1,11 +1,9 @@
-/* Hero.css */
-
 .hero {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1A1A1A; /* Dark background */
+  background-color: #1A1A1A; 
   text-align: center;
   padding: 0 20px;
   margin-top: 40px;
