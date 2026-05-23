@@ -3,10 +3,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1A1A1A; 
+  background-color: #1A1A1A;
   text-align: center;
   padding: 0 20px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .hero-content h1 {
@@ -22,14 +22,14 @@
 .hero-content p {
   font-size: 20px;
   color: #EDEDED;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
-.heroBtns{
+.heroBtns {
   display: flex;
   justify-content: center;
   gap: 30px;
-/* margin-top: 60px; */
+  flex-wrap: wrap;
 }
 
 .download-btn {
@@ -56,11 +56,12 @@
   gap: 30px;
   flex-wrap: wrap;
 }
+
 .hero-skills-container {
   width: 100%;
   max-width: 600px;
   overflow: hidden;
-  background:transparent;
+  background: transparent;
   margin: 50px auto;
   border-radius: 10px;
 }
@@ -70,19 +71,33 @@
   height: 60px;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
-
-/* Responsive */
+/* 
 @media (max-width: 768px) {
+  .hero-content {
+   
+  }
+
   .hero-content h1 {
-    font-size: 40px;
+    font-size: 38px;
+    
   }
 
   .hero-content p {
     font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .heroBtns {
+    gap: 15px;
+  }
+
+  .download-btn {
+    padding: 12px 25px;
+    font-size: 14px;
   }
 
   .hero-skills img {
     width: 50px;
     height: 50px;
   }
-}
+} */

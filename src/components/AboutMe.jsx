@@ -1,19 +1,24 @@
 import React from "react";
 import "./AboutMe.css";
-import profilePic from "../assets/avatar.png";
+import profilePic from "../assets/designer+coder.png";
 function AboutMe() {
   return (
     <div className="about-me-container">
       <div className="about-text">
         <h1>About Me</h1>
         <p>
-          I'm a passionate frontend developer with expertise in React.js, HTML,
-          CSS, and JavaScript. With a keen eye for detail and a love for
-          crafting beautiful user interfaces, I strive to create seamless and
-          engaging web experiences that captivate users. Whether you're looking
-          to collaborate on a project, discuss frontend development trends, or
-          simply share ideas, I'd love to connect. Feel free to reach out, and
-          let's explore how we can create something remarkable together.
+          I'm a creative professional with experience in graphic design and
+          frontend development, blending visual creativity with technical
+          expertise to craft engaging and impactful digital experiences. With a
+          strong eye for detail and a passion for thoughtful design, I enjoy
+          transforming ideas into compelling visuals and user-focused solutions.
+          Skilled across industry-standard creative and design tools, including
+          Photoshop, Illustrator, InDesign, Figma, Canva, and CapCut, alongside
+          frontend technologies such as React.js, HTML, CSS, and JavaScript, I
+          value both aesthetics and functionality in every project. Whether
+          collaborating on creative initiatives, exploring design trends, or
+          building meaningful digital experiences, I’m always inspired by
+          opportunities to create work that leaves a lasting impression.
         </p>
       </div>
       <div className="about-image">

@@ -7,6 +7,10 @@ import {
   FaReact,
   FaJsSquare,
   FaFigma,
+  FaPaintBrush,
+  FaPenNib,
+  FaBook,
+  FaVideo,
 } from "react-icons/fa";
 
 const skills = [
@@ -15,6 +19,11 @@ const skills = [
   { name: "JavaScript", icon: <FaJsSquare color="#fff" size={30} /> },
   { name: "ReactJS", icon: <FaReact color="#fff" size={30} /> },
   { name: "Figma", icon: <FaFigma color="#fff" size={30} /> },
+
+  { name: "Photoshop", icon: <FaPaintBrush color="#fff" size={30} /> },
+  { name: "Illustrator", icon: <FaPenNib color="#fff" size={30} /> },
+  { name: "InDesign", icon: <FaBook color="#fff" size={30} /> },
+  { name: "CapCut", icon: <FaVideo color="#fff" size={30} /> },
 ];
 
 function Hero() {
@@ -26,7 +35,7 @@ function Hero() {
         </h1>
 
         <p>
-          Frontend Developer & Designer | Crafting Beautiful, User-Friendly
+          Frontend Developer &  Graphic Designer | Crafting Beautiful, User-Friendly
           Experiences
         </p>
 
