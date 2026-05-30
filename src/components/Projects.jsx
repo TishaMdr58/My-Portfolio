@@ -16,6 +16,9 @@ import s3 from "../assets/s3.jpg";
 import s4 from "../assets/s4.png";
 import s5 from "../assets/s5.png";
 import s6 from "../assets/s9.png";
+import s7 from "../assets/s7.jpg";
+import s10 from "../assets/s10.png";
+import Biryani from "../assets/BIRYANI.png";
 
 function Projects() {
   const [lightboxImg, setLightboxImg] = useState(null);
@@ -45,9 +48,11 @@ function Projects() {
     { imageUrl: s6 },
     { imageUrl: coffepamp },
     { imageUrl: s1 },
+    { imageUrl: Biryani },
+    { imageUrl: s7 },
     { imageUrl: banner },
     { imageUrl: howl },
-    { imageUrl: s1 },
+    { imageUrl: s10 },
     { imageUrl: fathersday },
     { imageUrl: s2 },
     { imageUrl: s3 },
